@@ -1,0 +1,21 @@
+{
+  "name": "diploma",
+  "version": "1.0.0",
+  "description": "Diploma work.",
+  "main": "index.js",
+  "repository": "git@github.com:TimchenkoSergey/Diploma.git",
+  "author": "Sergey Timchenko <sergeytimchenko96@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "Electron",
+    "typescript",
+    "react",
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/TimchenkoSergey/Diploma/issues"
+  },
+  "scripts": {
+    "test": "echo 1"
+  }
+}
