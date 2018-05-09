@@ -12,6 +12,4 @@ deploy:
   provider: heroku
   app: "diploma-work-sergey-timechenko"
   api_key:
-    secure:
-      - herokuKey
-
+    secure: herokukey
