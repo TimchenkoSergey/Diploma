@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: diploma-work-sergey-timechenko
+  api_key:
+    secure: "6c3f912d-d13c-44aa-9b97-53568ec81cea"
