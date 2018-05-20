@@ -3,10 +3,10 @@ const webpack = require('webpack');
 
 const config = {
     entry: {
-        index: path.resolve(__dirname, '../', 'src', 'index.ts'),
+        index: path.resolve(__dirname, 'src/app.ts'),
     },
     output: {
-        path: path.resolve(__dirname, '../', 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: '[name].js',
     },
     module: {
@@ -18,10 +18,10 @@ const config = {
         ],
     },
     resolve: {
-        modules: ['.', path.resolve(__dirname, '../', 'node_modules')],
+        modules: [path.resolve(__dirname, 'node_modules')],
         extensions: ['.js', '.ts', '.tsx', '.jsx', '.json'],
     },
-    target: "node",
+    target: 'node',
 };
 
 module.exports = config;
